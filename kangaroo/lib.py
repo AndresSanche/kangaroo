@@ -47,6 +47,11 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def try_me():
+    print("What music to kangaroos like??")
+    print("-------------------------------")
+    print("Hip-Hop")
+
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
